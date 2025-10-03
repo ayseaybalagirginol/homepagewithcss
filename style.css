@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(#D99EC9, #F6F0C4);
+}
+section {
+  flex: 1; 
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: transparent;
+  color:white ;
+  transition: background 0.8s ease;
+  margin: 60px 20px;
+}
+section:target {
+  background: white;
+  color:black;
+  transition: background 0.8s eases;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color:white;
+  text-decoration-line:underline;
+}
+h2{
+  font-size: 30px;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+nav{
+  display: flex;             
+  justify-content: center;  
+  gap: 10px;                 
+  margin: 40px 0;
+}
+nav a {
+  flex: 1;                   
+  text-align: center;        
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  padding: 15px;
+  border-radius: 8px;
+  background: transparent;
+  border: 2px solid white;              
+  transition: 0.5s ease;
+}
+nav a:hover {
+  background: white;
+  transition: 0.4s ease;
+  color:black;
+}
+
+footer{
+  text-align: center;
+}
+
