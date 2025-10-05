@@ -4,6 +4,36 @@ html {
 body{
   background: linear-gradient(#D99EC9, #F6F0C4);
 }
+#website {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+#website h2 {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.website-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 25px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.website-link:hover {
+  background: white;
+  color: black;
+}
 section {
   flex: 1; 
   padding: 20px;
