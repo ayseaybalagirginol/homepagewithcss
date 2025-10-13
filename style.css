@@ -39,7 +39,7 @@ nav a {
     font-weight: 800;
     padding: 15px;
     border-radius: 8px;
-    border: 1px solid black;
+    border: 2px solid white;
     background: transparent;
     transition: 0.4s ease;
 }
@@ -62,7 +62,6 @@ nav a:hover {
     font-family: "Lobster Two", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 30px;
     color: white;
 }
 
@@ -70,7 +69,7 @@ nav a:hover {
     display: inline-block;
     margin-top: 10px;
     padding: 12px 25px;
-    border: 1px solid black;
+    border: 2px solid white;
     border-radius: 8px;
     background: transparent;
     color: white;
@@ -82,7 +81,7 @@ nav a:hover {
 .website-link:hover {
     background: white;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 
@@ -98,7 +97,7 @@ section {
     position: relative; 
     flex: 1 1 auto; 
     padding: 50px 20px 20px 20px; 
-    border: 1px solid black;
+    border: 2px solid white;
     border-radius: 8px;
     background: transparent;
     color: white;
@@ -110,33 +109,17 @@ section {
 section:target {
     background: white;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 main section h2 {
-    position: absolute;
-    top: 0;
-    right: 0;
     color: white;
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 8px 15px;
-    margin: 0;
     font-size: 30px;
     font-weight: 400;
     font-style: italic;
     font-family: "Lobster Two", sans-serif;
+    margin-top: 0px;
     
-}
-
-#about>h2{
-    background: #D99EC9;
-}
-#projects>h2{
-    background: #bc5797;
-}
-#contact>h2{
-    background: #fb93c4;
 }
 
 footer {
